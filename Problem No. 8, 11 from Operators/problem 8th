@@ -1,0 +1,13 @@
+// If the marks of Robert in three subjects are 78,45 and 62 respectively (each out of 100 )
+//write a program to calculate his total marks and percentage marks.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a=78,b=45,c=62;
+    int total_marks = a+b+c;
+    int percetange_marks = total_marks*100 /300 ;
+    cout<<total_marks << endl << percetange_marks;
+	return 0;
+}
